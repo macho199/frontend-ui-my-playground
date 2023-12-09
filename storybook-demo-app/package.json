@@ -17,7 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build-tailwindcss": "npx tailwindcss build src/index.css -o src/stories/tailwind.css",
+    "watch-tailwindcss": "npx tailwindcss build src/index.css -o src/stories/tailwind.css --watch"
   },
   "eslintConfig": {
     "extends": [
