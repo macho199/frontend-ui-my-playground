@@ -531,6 +531,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .contents {
   display: contents;
+}
+
+.w-full {
+  width: 100%;
 }
